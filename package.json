@@ -1,0 +1,21 @@
+{
+  "name": "inferno-sidechain-node",
+  "version": "0.0.1",
+  "description": "A node for managing sidechain data for the Ethereum Inferno Sidechain",
+  "main": "index.js",
+  "scripts": {
+    "app": "node index.js"
+  },
+  "dependencies": {
+    "mocha": "^5.0.1",
+    "mongodb": "^3.0.10",
+    "web3": "^1.0.0-beta.28",
+    "web3-eth": "^1.0.0-beta.30",
+    "web3-utils": "^1.0.0-beta.29"
+  },
+  "keywords": [
+    "ethereum"
+  ],
+  "author": "infernal_toast",
+  "license": "MIT"
+}
