@@ -9,6 +9,7 @@
   "dependencies": {
     "mocha": "^5.0.1",
     "mongodb": "^3.0.10",
+    "peerjs": "^0.3.18",
     "web3": "^1.0.0-beta.28",
     "web3-eth": "^1.0.0-beta.30",
     "web3-utils": "^1.0.0-beta.29"
