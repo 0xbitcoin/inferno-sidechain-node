@@ -7,6 +7,8 @@
     "app": "node index.js"
   },
   "dependencies": {
+    "crypto": "^1.0.1",
+    "merkletreejs": "0.0.18",
     "mocha": "^5.0.1",
     "mongodb": "^3.0.10",
     "peerjs": "^0.3.18",

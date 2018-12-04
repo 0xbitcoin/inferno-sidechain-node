@@ -14,9 +14,9 @@ async function init()
 {
   console.log('Booting inferno sidechain node :)')
 
-  mongoInterface.init('inferno_sidechain')
+  await mongoInterface.init('inferno_sidechain')
 
-  sidechainCore.init()
+  await sidechainCore.init(mongoInterface)
 }
 
 init();
